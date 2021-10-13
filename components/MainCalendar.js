@@ -1,3 +1,4 @@
+import { FcClock } from "react-icons/fc";
 const cal = [
   {
     time: "8 am",
@@ -35,7 +36,7 @@ export default function MainCalendarl() {
                     scope="col"
                     className="px-6 py-3 text-xs font-medium tracking-wider text-left text-gray-500 uppercase"
                   >
-                    Monday
+                    <FcClock size={32} />
                   </th>
 
                   <th
